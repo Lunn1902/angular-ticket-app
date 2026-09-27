@@ -1,59 +1,23 @@
-# TicketApp
+This project was generated using Angular CLI version 21.1.1.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.1.
+# 🎫 Sistema de Tickets en Tiempo Real - Angular
 
-## Development server
+Proyecto de estudio para la implementación de un sistema de asignación y gestión de turnos (tipo centro de atención al cliente). Este repositorio contiene la estructura base (interfaces, rutas y maquetación) desarrollada en **Angular**, preparada para integrarse con un backend de comunicación en tiempo real.
 
-To start a local development server, run:
+## 🎯 Objetivos de Aprendizaje
+* Implementación de sincronización de datos bidireccional.
+* Gestión de estados para múltiples pantallas (Agente y Público).
+* Preparación del entorno para integración con WebSockets (Socket.io).
 
-```bash
-ng serve
-```
+## ⚙️ Tecnologías Utilizadas
+* **Frontend:** Angular, TypeScript, HTML, CSS
+* **Conceptos clave:** Arquitectura de componentes, enrutamiento, observables.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🛠️ Cómo ejecutar el proyecto localmente
+1. Clona este repositorio.
+2. Instala las dependencias ejecutando `npm install`.
+3. Levanta el servidor de desarrollo con `ng serve -o`.
+4. El navegador se abrirá automáticamente en `http://localhost:4200`.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+*Repositorio de práctica
