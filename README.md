@@ -1,20 +1,13 @@
-This project was generated using Angular CLI version 21.1.1.
 
-# 🎫 Sistema de Tickets en Tiempo Real - Angular
+# Sistema de Tickets en Tiempo Real - Angular
 
-Proyecto de estudio para la implementación de un sistema de asignación y gestión de turnos (tipo centro de atención al cliente). Este repositorio contiene la estructura base (interfaces, rutas y maquetación) desarrollada en **Angular**, preparada para integrarse con un backend de comunicación en tiempo real.
+Este desarrollo está construido con Angular, TypeScript, HTML y CSS, apoyado en el entorno de Node.js y Angular CLI. El objetivo principal de esta práctica es preparar el proyecto para consumir eventos con Socket.io e implementar la sincronización de datos en tiempo real de forma bidireccional. Permite explorar cómo manejar diferentes rutas y estados simultáneamente, conectando la interfaz que utiliza el agente en su escritorio con la pantalla pública donde los usuarios ven los turnos actualizados.
 
-## 🎯 Objetivos de Aprendizaje
-* Implementación de sincronización de datos bidireccional.
-* Gestión de estados para múltiples pantallas (Agente y Público).
-* Preparación del entorno para integración con WebSockets (Socket.io).
+Para correr este proyecto en tu entorno local, asegúrate de tener [Node.js](https://nodejs.org/) y Angular CLI version 21.1.1. instalados.
 
-## ⚙️ Tecnologías Utilizadas
-* **Frontend:** Angular, TypeScript, HTML, CSS
-* **Conceptos clave:** Arquitectura de componentes, enrutamiento, observables.
+# Cómo ejecutar el proyecto localmente
 
-## 🛠️ Cómo ejecutar el proyecto localmente
-1. Clona este repositorio.
+1. Clonar este repositorio.
 2. Instala las dependencias ejecutando `npm install`.
 3. Levanta el servidor de desarrollo con `ng serve -o`.
 4. El navegador se abrirá automáticamente en `http://localhost:4200`.
